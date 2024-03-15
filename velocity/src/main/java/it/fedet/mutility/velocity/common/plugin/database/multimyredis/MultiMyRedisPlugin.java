@@ -13,7 +13,7 @@ import java.util.Map;
 
 public abstract class MultiMyRedisPlugin<R extends RedisProvider, C extends RedisData, M extends MysqlProvider, D extends MysqlData> extends BasePlugin {
 
-    protected MultiMyRedis<R, C,  M, D> database;
+    protected MultiMyRedis<R, C, M, D> database;
 
     protected MultiMyRedisPlugin(ProxyServer server, Logger logger, Path dataDirectory) {
         super(server, logger, dataDirectory);

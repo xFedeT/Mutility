@@ -45,6 +45,7 @@ public abstract class RegistrableCommand implements SimpleCommand {
     }
 
     public abstract void onExecute(Invocation invocation);
+
     public Component onDelay(Invocation invocation) {
         return Component.text("");
     }

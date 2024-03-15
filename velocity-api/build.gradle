@@ -11,14 +11,10 @@ dependencies {
 }
 
 publishing {
-    def group = 'it.fedet.mutility'
-    def artifact = 'velocity-api'
-    def version = '1.0'
-
     publications {
         maven(MavenPublication) {
             groupId = group
-            artifactId = artifact
+            artifactId = 'velocity-api'
             version
 
             from components.java
