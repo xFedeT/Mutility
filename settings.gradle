@@ -1,0 +1,6 @@
+rootProject.name = 'Mutility'
+
+include 'bukkit-api'
+include 'bukkit'
+include 'velocity-api'
+include 'velocity'

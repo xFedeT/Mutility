@@ -1,0 +1,31 @@
+plugins {
+    id 'maven-publish'
+}
+
+tasks.register('sourceJar', Jar) {
+    from sourceSets.main.allJava
+}
+
+dependencies {
+
+}
+
+publishing {
+    def group = 'it.fedet.mutility'
+    def artifact = 'bukkit-api'
+    def version = '1.0'
+
+    publications {
+        maven(MavenPublication) {
+            groupId = group
+            artifactId = artifact
+            version
+
+            from components.java
+        }
+    }
+
+    repositories {
+
+    }
+}

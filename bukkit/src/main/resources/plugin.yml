@@ -1,0 +1,8 @@
+name: MUtility
+version: '${version}'
+main: it.fedet.mutility.bukkit.plugin.Mutility
+author: [xFedeT, Granatino]
+depend:
+  - TAB
+  - LuckPerms
+  - ViaVersion
